@@ -7,7 +7,8 @@ body {
 
 .page-container {
     width: 100%;
-    max-width: 1903px;
+    height: 100%;
+    width: 1903px;
     height: 2214px;
     margin: 0 auto;
 }
@@ -63,7 +64,7 @@ body {
     text-decoration: none;
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1.47vh;
+    font-size: 1rem;
     line-height: 1.80vh;
     display: block;
     margin-top: 32px;
@@ -107,7 +108,7 @@ body {
 
 .input-box {
     width: 100%;
-    max-width: 520px;
+    width: 520px;
     height: 465px;
     margin-left: 130px;
     border-radius: 4px;
@@ -116,10 +117,9 @@ body {
 }
 
 .registration-title {
-    width: 100%;
-    max-width: 444px;
+    width: 444px;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 700;
     line-height: 43.2px;
     color: #FFFFFF;
@@ -138,7 +138,7 @@ body {
     border-bottom: 1px solid white;
     padding: 0 0 0 20px;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: white;
     margin-top: 20px;
     box-sizing: border-box;
@@ -196,7 +196,7 @@ label {
 
 .checkbox-label {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 14px;
+    font-size: 0.85rem;
     font-weight: 400;
     line-height: 19.6px;
     text-align: left;
@@ -214,7 +214,7 @@ label {
     background-color: #3952EC;
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 22.4px;
     text-align: center;
@@ -248,7 +248,7 @@ label {
 
 .container2-title {
     text-align: center;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: bold;
     margin-bottom: 10px;
     color: white;
@@ -260,7 +260,7 @@ label {
 .container2-subtitle {
     font-weight: 400;
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 22.4px;
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
@@ -270,7 +270,7 @@ label {
 
 .caixa-grande {
     width: 100%;
-    max-width: 373px;
+    width: 373px;
     height: 411px;
     background: #171717;
     display: flex;
@@ -357,7 +357,7 @@ label {
     margin: 0;
     color: #FFFFFF;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .texto2-pix,
@@ -366,7 +366,7 @@ label {
     margin: 0;
     color: #ffffff;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     margin-top: 5px;
 }
 
@@ -376,7 +376,7 @@ label {
     margin-right: 85px;
     color: #767676;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 12px;
+    font-size: 0.75rem;
     margin-top: 5px;
 }
 
@@ -411,7 +411,7 @@ label {
 .titulo-direita {
     margin: 0;
     margin-left: 75px;
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 43.2px;
     font-weight: 700;
     color: #FFFFFF;
@@ -420,12 +420,11 @@ label {
 }
 
 .texto-caixa {
-    width: 100%;
+    height: 318px;
     margin-left: 75px;
-    max-width: 520px;
-    height: auto;
+    width: 520px;
     text-align: justify;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 22.4px;
     color: #FFFFFF;
@@ -434,7 +433,7 @@ label {
 
 .footer {
     width: 100%;
-    max-width: 1903px;
+    width: 1903px;
     height: 280px;
     background-color: #16171C;
     color: #ffffff;
@@ -474,7 +473,7 @@ label {
 
 .textf,
 .text2f {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 19.2px;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -482,109 +481,173 @@ label {
 .text2f {
     color: #767676;
 }
+@media (max-width: 2560px) {
+    .icone-meio{
+        display: none;
+    }
+    .page-container{
+        width: 100%;
+    }
+    .footer{
+      width: 100%;
+    }
+}
+@media (max-width: 1024px) {
+    .page-container{
+        width: 117%;
+        height: 139.65%;
+    }
 
+    .header-container{
+        width: 117%;
+    }
+    .container2{
+        width: 117%;
+        margin-left: 80px;
+    }
+    .container3{
+        width: 100%;
+        margin-left: 100px;
+    }
+    .footer{
+      width: 117%;
+    }
+    .footer-content{
+        margin-left: 100px;
+    }
+}
 @media (max-width: 768px) {
     .icone-meio {
         display: none;
     }
-
+    .header-container{
+        width: 117%;
+        height: 150px;
+    }
+    .logo{
+        width: 150%;
+    }
     .header-logo {
         position: relative;
-        left: 30px;
-        top: 0px;
+        left: 1.875rem; 
+        top: 0;
     }
 
     .header-nav {
-        margin-left: 70px;
+        margin-left: 7rem; 
     }
 
     .header-nav ul li {
-        margin-left: 10px;
+        margin-left: 0.9375rem; 
     }
 
     .header-nav ul li a {
-        font-size: 1.6vh;
+        font-size: 1.9rem;
     }
-
+    .icon{
+        width: 100%;
+    }
     .header-icon {
-        top: 0px;
-        right: 30px;
+        width: 100px;
+        top: 0;
+        right: 1.875rem; 
     }
 
     .container1 {
         flex-direction: column;
-        margin: 30px auto;
-        padding: 0 20px;
+        width: 90%;
+        margin-left: 0px;
     }
 
     .imagem1 {
         height: auto;
+        margin-left: 110px;
     }
 
     .input-box {
-        margin-left: 0px;
+        width: 90%;
     }
 
     .registration-title {
-        font-size: 26px;
-        margin-bottom: 0px;
+        width: 120%;
+        font-size: 2.9rem;
+        margin-bottom: 0;
     }
 
     .input-name,
     .input-email,
     .input-phone {
-        font-size: 14px;
+        font-size: 1.5rem;
+        width: 120%;
+        height: 20%;
+        margin-bottom: 0.625rem; 
+        padding: 0.625rem; 
+    }
+
+    .checkbox-input {
+        width: 3.75rem; 
+        height: 1.25rem; 
+        border-radius: 6px;
+    }
+
+    .checkbox-label {
+        font-size: 1.6rem;
+    }
+
+    .checkbox-input:checked::after {
+        width: 1rem;
+        height: 0.8125rem; 
     }
 
     .btn-cadastrar {
-        max-width: 100%;
+        max-width: 50%;
+        height: 85px;
+        font-size: 1.6rem;
+        border-radius: 10px;
     }
 
     .container2 {
-        width: -50%;
+        width: 0%;
     }
 
     .caixa-principal {
         display: block;
-        margin-right: 0px;
+        margin-right: 0;
     }
 
     .container2-title {
-        margin-top: 0px;
+        margin-top: 13rem; 
+        font-size: 2.8rem;
+        margin-left: 150px;
     }
 
-    .caixa-grande {
-        width: 400px;
-        height: 90px;
-        margin-left: 200px;
-        margin-bottom: 10px;
+    .container2-subtitle {
+        margin-top: 1.875rem;
+        font-size: 1.4rem;
+        margin-left: 150px;
     }
 
+    .caixa-grande,
     .caixa-menor {
-        width: 373px;
-        margin-left: 200px;
-        height: 90px;
-        margin-bottom: 10px;
+        width: 900px;
+        height: 8rem; 
+        margin-left: 0;
+        margin-bottom: 0.625rem;
     }
 
-    .icone-pix {
-        margin-top: 20px;
-    }
-
+    .icone-pix,
     .icone-cartao {
-        margin-top: 20px;
+        width: 60px;
+        height: 50px;
+        margin-top: 2rem;
     }
-
-    .icone-b {
-        margin-top: 20px;
+    .icone-b{
+        width: 55px;
+        height: 60px;
     }
-
-    .icone-nupay {
-        margin-top: 30px;
-    }
-
+    .icone-nupay,
     .icone-picpay {
-        margin-top: 30px;
+        margin-top: 2rem;
     }
 
     .texto-pix,
@@ -592,23 +655,24 @@ label {
     .texto-b,
     .texto-nupay,
     .texto-picpay {
-        font-size: 18px;
-        margin-left: 100px;
-        margin-top: -65px;
+        font-size: 2rem;
+        margin-left: 6.25rem;
+        margin-top: -4.375rem;
     }
 
     .texto2-pix,
     .texto2-cartao,
     .texto2-picpay {
-        font-size: 14px;
-        margin-left: 100px;
-        margin-top: 0px;
+        font-size: 1.6rem;
+        margin-left: 6.25rem;
+        margin-top: 0;
     }
 
     .texto2-b,
     .texto2-nupay {
-        margin-left: 100px;
-        margin-top: 0px;
+        font-size: 1.5rem;
+        margin-left: 6.25rem; 
+        margin-top: 0;
     }
 
     .container3 {
@@ -616,12 +680,12 @@ label {
         align-items: center;
         width: 90%;
         height: auto;
-        margin-top: 15px;
+        margin-top: 15rem; 
     }
 
     .imagem-esquerda {
         width: 70%;
-        margin-left: 100px;
+        margin-left: 9rem;
     }
 
     .caixa-esquerda,
@@ -631,215 +695,37 @@ label {
     }
 
     .titulo-direita {
-        font-size: 28px;
-        margin-left: 0px;
+        font-size: 2.1rem;
+        margin-top: 0.625rem; 
+        margin-left: 0;
         text-align: center;
     }
 
     .texto-caixa {
-        width: 100%;
+        width: 850px;
         margin-left: 0px;
-        margin-left: 85px;
-        font-size: 19px;
+        font-size: 1.6rem;
     }
 
     .footer {
-        height: 180px;
+        height: 11.25rem; 
     }
 
     .footer-content {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 0px;
+        gap: 0;
         justify-content: space-between;
         width: 100%;
-        margin-left: 30px;
+        margin-left: 1.875rem; 
+        margin-top: 1.25rem;
     }
 
     .box {
         height: auto;
         margin-left: 0;
     }
-
-    .iconf {
-        margin: 0;
-        margin-bottom: 10px;
-    }
-
-    .textf,
-    .text2f {
-        font-size: 14px;
-    }
 }
-
 @media (max-width: 576px) {
-    .icone-meio {
-        display: none;
-    }
-
-    .header-container {
-        width: 104%;
-        height: 100px;
-    }
-
-    .header-logo {
-        position: relative;
-        left: 10px;
-        top: -20px;
-    }
-
-    .header-nav {
-        margin-left: -60px;
-        margin-bottom: 30px;
-    }
-
-    .header-nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        margin-top: 70px;
-        margin-left: 0px;
-    }
-
-    .header-nav ul li {
-        margin-left: 20px;
-        margin-top: 0.5px;
-    }
-
-    .header-nav ul li a {
-        text-decoration: none;
-        color: white;
-        font-family: 'Roboto Condensed', sans-serif;
-        font-size: 1.2vh;
-        line-height: 1.80vh;
-        display: block;
-        margin-top: 5px;
-    }
-
-    .header-icon {
-        top: -20px;
-    }
-
-    .container1 {
-        flex-direction: column;
-        margin: 30px auto;
-        padding: 0 20px;
-    }
-
-    .imagem-esquerda {
-        width: 60%;
-        margin-left: 75px;
-    }
-
-    .input-box {
-        max-width: 100%;
-        margin-top: 10px;
-        margin-left: 0px;
-    }
-
-    .registration-title {
-        font-size: 26px;
-    }
-
-    .checkbox-input {
-        width: 46px;
-        height: 16px;
-    }
-
-    .container2 {
-        width: 50%;
-        margin-left: -180px;
-    }
-
-    .texto2-nupay,
-    .texto2-b {
-        font-size: 11px;
-    }
-
-    .texto-caixa {
-        margin-left: 0px;
-        font-size: 16px;
-    }
-
-    .input-name,
-    .input-email,
-    .input-phone {
-        font-size: 14px;
-    }
-
-    .btn-cadastrar {
-        max-width: 100%;
-    }
-
-    .caixa-direita {
-        margin-top: 30px;
-    }
-}
-
-@media (max-width: 400px) {
-    .icone-meio {
-        display: none;
-    }
-
-    .header-container {
-        width: 105%;
-        height: 100px;
-        margin-left: -5px;
-    }
-
-    .page-container {
-        margin-left: 5px;
-    }
-
-    .header-icon {
-        right: 50px;
-    }
-
-    .container1 {
-        margin-left: 0px;
-    }
-
-    .container2-title {
-        margin-top: 100px;
-        font-size: 26px;
-        margin-left: 50px;
-    }
-
-    .container2-subtitle {
-        margin-left: 50px;
-        margin-bottom: 0px;
-    }
-
-    .caixa-grande,
-    .caixa-menor {
-        width: 350px;
-        margin-left: 195px;
-    }
-
-    .container3 {
-        margin-left: 20px;
-    }
-
-    .footer {
-        width: 390px;
-        ;
-        margin-left: -5px;
-    }
-
-}
-
-/*scrollbar*/
-::-webkit-scrollbar {
-    width: 12px;
-    background-color: #171717;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #000;
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-track {
-    background: #171717;
+    
 }
