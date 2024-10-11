@@ -718,7 +718,7 @@ label {
         justify-content: space-between;
         width: 100%;
         margin-left: 1.875rem; 
-        margin-top: 1.25rem;
+        margin-top: 1.25rem; 
     }
 
     .box {
@@ -727,5 +727,223 @@ label {
     }
 }
 @media (max-width: 576px) {
-    
+    .icone-meio {
+        display: none;
+    }
+    .header-container{
+        width: 197%;
+        height: 200px;
+    }
+    .logo{
+        width: 150%;
+    }
+    .header-logo {
+        position: relative;
+        left: 1.875rem; 
+        top: 0;
+    }
+
+    .header-nav {
+        margin-left: 7rem; 
+    }
+
+    .header-nav ul li {
+        margin-left: 0.9375rem; 
+    }
+
+    .header-nav ul li a {
+        font-size: 1.9rem;
+    }
+    .icon{
+        width: 100%;
+    }
+    .header-icon {
+        width: 100px;
+        top: 0;
+        right: 1.875rem; 
+    }
+
+    .container1 {
+        flex-direction: column;
+        width: 150%;
+        margin-left: 0px;
+    }
+
+    .imagem1 {
+        height: auto;
+        margin-left: 110px;
+    }
+
+    .input-box {
+        width: 90%;
+    }
+
+    .registration-title {
+        width: 120%;
+        font-size: 2.9rem;
+        margin-bottom: 0;
+    }
+
+    .input-name,
+    .input-email,
+    .input-phone {
+        font-size: 1.5rem;
+        width: 120%;
+        height: 20%;
+        margin-bottom: 0.625rem; 
+        padding: 0.625rem; 
+    }
+
+    .checkbox-input {
+        width: 7rem; 
+        height: 2rem; 
+        border-radius: 6px;
+    }
+
+    .checkbox-label {
+        font-size: 1.9rem;
+    }
+
+    .checkbox-input:checked::after {
+        width: 1.8rem;
+        height: 1.6rem;
+        border-radius: 5px;
+    }
+
+    .btn-cadastrar {
+        max-width: 65%;
+        height: 85px;
+        font-size: 1.6rem;
+        border-radius: 10px;
+    }
+
+    .container2 {
+        width: 0%;
+    }
+
+    .caixa-principal {
+        display: block;
+        margin-right: 0;
+    }
+
+
+
+    .caixa-grande,
+    .caixa-menor {
+        width: 800px;
+        height: 8rem; 
+        margin-left: 0;
+        margin-bottom: 0.625rem;
+    }
+
+    .icone-pix,
+    .icone-cartao {
+        width: 60px;
+        height: 50px;
+        margin-top: 2rem;
+    }
+    .icone-b{
+        width: 55px;
+        height: 60px;
+    }
+    .icone-nupay,
+    .icone-picpay {
+        margin-top: 2rem;
+    }
+
+    .texto-pix,
+    .texto-cartao,
+    .texto-b,
+    .texto-nupay,
+    .texto-picpay {
+        font-size: 2rem;
+        margin-left: 6.25rem;
+        margin-top: -5rem;
+    }
+
+    .texto2-pix,
+    .texto2-cartao,
+    .texto2-picpay {
+        font-size: 1.6rem;
+        margin-left: 6.25rem;
+        margin-top: 0;
+    }
+
+    .texto2-b,
+    .texto2-nupay {
+        font-size: 1.5rem;
+        margin-left: 6.25rem; 
+        margin-top: 0;
+    }
+    .container2-title, .container2-subtitle{
+        margin-left: 100px;
+        text-align: left;
+    }
+    .container2-title{
+        margin-top: 18rem;
+        font-size: 2.8rem;
+    }
+    .container2-subtitle{
+        font-size: 1.9rem;
+        line-height: 30px;
+    }
+    .container3 {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        height: auto;
+        margin-top: 15rem; 
+    }
+
+    .imagem-esquerda {
+        width: 70%;
+        margin-left: 14rem;
+    }
+
+    .caixa-esquerda,
+    .caixa-direita {
+        width: 100%;
+        height: auto;
+    }
+
+    .titulo-direita {
+        font-size: 2.1rem;
+        margin-top: 0.625rem; 
+        margin-left: -40px;
+        text-align: left;
+    }
+
+    .texto-caixa {
+        width: 850px;
+        margin-left: -40px;
+        font-size: 1.6rem;
+    }
+
+    .footer {
+        width: 197%;
+        height: 11.25rem; 
+    }
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 1.875rem; 
+        margin-top: 1.25rem; 
+    }
+
+    .box {
+        height: auto;
+        margin-left: 50px;
+    }
+    .iconf{
+        width: 100px;
+        height: auto;
+        margin-bottom: 0px;
+    }
+    .textf, .text2f{
+        display: none;
+    }
 }
