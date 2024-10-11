@@ -14,9 +14,9 @@ body {
 
 .icone-meio {
     position: absolute;
-    top: 1368px; 
-    left: 780px; 
-    width: 50px; 
+    top: 1368px;
+    left: 780px;
+    width: 50px;
     height: 50px;
     z-index: 0;
 }
@@ -76,6 +76,7 @@ body {
     position: relative;
     right: 320px;
 }
+
 .header-icon {
     flex-direction: row;
     margin-left: auto;
@@ -95,13 +96,15 @@ body {
 .image-box {
     width: 100%;
     max-width: 615px;
-    
+
 }
-.imagem1{
+
+.imagem1 {
     width: 110%;
     max-width: 615px;
     height: 686px;
 }
+
 .input-box {
     width: 100%;
     max-width: 520px;
@@ -109,7 +112,7 @@ body {
     margin-left: 130px;
     border-radius: 4px;
     opacity: 1;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .registration-title {
@@ -153,50 +156,50 @@ body {
 }
 
 label {
-    display: flex; 
+    display: flex;
     align-items: flex-start;
 }
 
 .checkbox-container {
-    display: flex; 
-    align-items: flex-start; 
+    display: flex;
+    align-items: flex-start;
     margin-top: 15px;
 }
 
 .checkbox-input {
-    width: 36px; 
-    height: 16px; 
-    margin-right: 10px; 
-    cursor: pointer; 
-    -webkit-appearance: none; 
-    appearance: none; 
-    background-color: black; 
-    border: 1px solid white; 
-    border-radius: 4px; 
-    position: relative; 
+    width: 36px;
+    height: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 4px;
+    position: relative;
 }
 
 .checkbox-input:checked {
-    background-color: black; 
+    background-color: black;
 }
 
 .checkbox-input:checked::after {
-    content: ''; 
-    position: absolute; 
-    top: 2px; 
+    content: '';
+    position: absolute;
+    top: 2px;
     left: 2px;
-    width: 11px; 
-    height: 10px; 
-    background-color: white; 
-    border-radius: 2px; 
+    width: 11px;
+    height: 10px;
+    background-color: white;
+    border-radius: 2px;
 }
 
 .checkbox-label {
-    font-family: 'Roboto Condensed', sans-serif; 
-    font-size: 14px; 
-    font-weight: 400; 
-    line-height: 19.6px; 
-    text-align: left; 
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
     color: #767676;
     margin-top: 0;
 }
@@ -276,13 +279,13 @@ label {
     align-items: flex-start;
     padding: 0px;
     box-sizing: border-box;
-    border: 1px solid #212121; 
+    border: 1px solid #212121;
 }
 
 .caixas-menores {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .caixa-menor {
@@ -291,7 +294,7 @@ label {
     background: #171717;
     margin-bottom: 18px;
     box-sizing: border-box;
-    border: 1px solid #212121; 
+    border: 1px solid #212121;
 }
 
 .icone-pix {
@@ -426,7 +429,7 @@ label {
     font-weight: 400;
     line-height: 22.4px;
     color: #FFFFFF;
-    font-family: 'Roboto Condensed',  sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .footer {
@@ -481,9 +484,10 @@ label {
 }
 
 @media (max-width: 768px) {
-    .icone-meio{
+    .icone-meio {
         display: none;
     }
+
     .header-logo {
         position: relative;
         left: 30px;
@@ -513,9 +517,10 @@ label {
         padding: 0 20px;
     }
 
-     .imagem1{
+    .imagem1 {
         height: auto;
     }
+
     .input-box {
         margin-left: 0px;
     }
@@ -613,29 +618,35 @@ label {
         height: auto;
         margin-top: 15px;
     }
+
     .imagem-esquerda {
         width: 70%;
         margin-left: 100px;
     }
+
     .caixa-esquerda,
     .caixa-direita {
         width: 100%;
         height: auto;
     }
+
     .titulo-direita {
         font-size: 28px;
         margin-left: 0px;
         text-align: center;
     }
+
     .texto-caixa {
         width: 100%;
         margin-left: 0px;
         margin-left: 85px;
         font-size: 19px;
     }
+
     .footer {
         height: 180px;
     }
+
     .footer-content {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -644,36 +655,44 @@ label {
         width: 100%;
         margin-left: 30px;
     }
+
     .box {
         height: auto;
         margin-left: 0;
     }
+
     .iconf {
         margin: 0;
         margin-bottom: 10px;
     }
-    .textf, .text2f{
+
+    .textf,
+    .text2f {
         font-size: 14px;
     }
 }
 
 @media (max-width: 576px) {
-    .icone-meio{
+    .icone-meio {
         display: none;
     }
-    .header-container{
+
+    .header-container {
         width: 104%;
         height: 100px;
     }
+
     .header-logo {
         position: relative;
         left: 10px;
         top: -20px;
     }
+
     .header-nav {
-        margin-left: -60px; 
-        margin-bottom: 30px; 
+        margin-left: -60px;
+        margin-bottom: 30px;
     }
+
     .header-nav ul {
         list-style-type: none;
         margin: 0;
@@ -682,31 +701,37 @@ label {
         margin-top: 70px;
         margin-left: 0px;
     }
+
     .header-nav ul li {
-        margin-left: 20px; 
-        margin-top: 0.5px; 
+        margin-left: 20px;
+        margin-top: 0.5px;
     }
+
     .header-nav ul li a {
-        text-decoration: none; 
+        text-decoration: none;
         color: white;
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 1.2vh;
-        line-height: 1.80vh; 
+        line-height: 1.80vh;
         display: block;
         margin-top: 5px;
     }
+
     .header-icon {
         top: -20px;
     }
+
     .container1 {
         flex-direction: column;
         margin: 30px auto;
         padding: 0 20px;
     }
+
     .imagem-esquerda {
         width: 60%;
         margin-left: 75px;
     }
+
     .input-box {
         max-width: 100%;
         margin-top: 10px;
@@ -718,18 +743,20 @@ label {
     }
 
     .checkbox-input {
-        width: 46px; 
-        height: 16px; 
+        width: 46px;
+        height: 16px;
     }
 
     .container2 {
         width: 50%;
         margin-left: -180px;
     }
-    .texto2-nupay, .texto2-b{   
+
+    .texto2-nupay,
+    .texto2-b {
         font-size: 11px;
     }
-    
+
     .texto-caixa {
         margin-left: 0px;
         font-size: 16px;
@@ -744,54 +771,67 @@ label {
     .btn-cadastrar {
         max-width: 100%;
     }
+
     .caixa-direita {
         margin-top: 30px;
     }
 }
+
 @media (max-width: 400px) {
-    .icone-meio{
+    .icone-meio {
         display: none;
     }
-    .header-container{
+
+    .header-container {
         width: 105%;
         height: 100px;
         margin-left: -5px;
     }
-    .page-container{
+
+    .page-container {
         margin-left: 5px;
     }
-    .header-icon{
+
+    .header-icon {
         right: 50px;
     }
-    .container1{
+
+    .container1 {
         margin-left: 0px;
     }
-    .container2-title{
+
+    .container2-title {
         margin-top: 100px;
         font-size: 26px;
         margin-left: 50px;
     }
-    .container2-subtitle{
+
+    .container2-subtitle {
         margin-left: 50px;
         margin-bottom: 0px;
     }
-    .caixa-grande, .caixa-menor{
+
+    .caixa-grande,
+    .caixa-menor {
         width: 350px;
         margin-left: 195px;
     }
-    .container3{
+
+    .container3 {
         margin-left: 20px;
     }
-    .footer{
-        width: 390px;;
+
+    .footer {
+        width: 390px;
+        ;
         margin-left: -5px;
     }
-    
+
 }
 
 /*scrollbar*/
 ::-webkit-scrollbar {
-    width: 12px; 
+    width: 12px;
     background-color: #171717;
 }
 
