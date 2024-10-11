@@ -1,0 +1,805 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #090909;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-container {
+    width: 100%;
+    max-width: 1903px;
+    height: 2214px;
+    margin: 0 auto;
+}
+
+.icone-meio {
+    position: absolute;
+    top: 1368px; 
+    left: 780px; 
+    width: 50px; 
+    height: 50px;
+    z-index: 0;
+}
+
+/* HEADER */
+.header-container {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #313131;
+    margin-bottom: 0px;
+}
+
+.header-logo {
+    position: absolute;
+    top: 26px;
+    left: 324px;
+}
+
+.logo {
+    width: auto;
+    height: auto;
+}
+
+.header-nav {
+    margin-left: 525px;
+    margin-bottom: 30px;
+}
+
+.header-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-nav ul li {
+    margin-left: 40px;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.47vh;
+    line-height: 1.80vh;
+    display: block;
+    margin-top: 32px;
+}
+
+.header-icon {
+    display: flex;
+    gap: 1vh;
+    align-items: center;
+    position: relative;
+    right: 320px;
+}
+.header-icon {
+    flex-direction: row;
+    margin-left: auto;
+}
+
+/* CONTAINER 1 */
+.container1 {
+    width: 90%;
+    max-width: 1259px;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image-box {
+    width: 100%;
+    max-width: 615px;
+    
+}
+.imagem1{
+    width: 110%;
+    max-width: 615px;
+    height: 686px;
+}
+.input-box {
+    width: 100%;
+    max-width: 520px;
+    height: 465px;
+    margin-left: 130px;
+    border-radius: 4px;
+    opacity: 1;
+    box-sizing: border-box; 
+}
+
+.registration-title {
+    width: 100%;
+    max-width: 444px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.2px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.input-name,
+.input-email,
+.input-phone {
+    width: 100%;
+    height: 48px;
+    border: none;
+    border-radius: 4px;
+    border-bottom: 1px solid white;
+    padding: 0 0 0 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background-color: transparent;
+    transition: border-bottom 0.3s;
+    background: #171717;
+    margin-bottom: 5px;
+}
+
+.input-name:focus,
+.input-email:focus,
+.input-phone:focus {
+    outline: none;
+    border-bottom: 1px solid #00BEFF;
+}
+
+label {
+    display: flex; 
+    align-items: flex-start;
+}
+
+.checkbox-container {
+    display: flex; 
+    align-items: flex-start; 
+    margin-top: 15px;
+}
+
+.checkbox-input {
+    width: 36px; 
+    height: 16px; 
+    margin-right: 10px; 
+    cursor: pointer; 
+    -webkit-appearance: none; 
+    appearance: none; 
+    background-color: black; 
+    border: 1px solid white; 
+    border-radius: 4px; 
+    position: relative; 
+}
+
+.checkbox-input:checked {
+    background-color: black; 
+}
+
+.checkbox-input:checked::after {
+    content: ''; 
+    position: absolute; 
+    top: 2px; 
+    left: 2px;
+    width: 11px; 
+    height: 10px; 
+    background-color: white; 
+    border-radius: 2px; 
+}
+
+.checkbox-label {
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: 14px; 
+    font-weight: 400; 
+    line-height: 19.6px; 
+    text-align: left; 
+    color: #767676;
+    margin-top: 0;
+}
+
+
+.btn-cadastrar {
+    width: 100%;
+    max-width: 216px;
+    height: 48px;
+    margin-top: 16px;
+    border-radius: 4px;
+    background-color: #3952EC;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+/*CONTAINER 2*/
+.caixa-principal {
+    width: 100%;
+    max-width: 1255px;
+    max-height: 411px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    padding: 0px;
+}
+
+.container2 {
+    width: 100%;
+    max-width: 1255px;
+    height: 534px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container2-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 43.2px;
+    margin-top: -50px;
+}
+
+.container2-subtitle {
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.caixa-grande {
+    width: 100%;
+    max-width: 373px;
+    height: 411px;
+    background: #171717;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 1px solid #212121; 
+}
+
+.caixas-menores {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.caixa-menor {
+    width: 421px;
+    height: 196px;
+    background: #171717;
+    margin-bottom: 18px;
+    box-sizing: border-box;
+    border: 1px solid #212121; 
+}
+
+.icone-pix {
+    width: 42.85px;
+    height: 42.85px;
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}
+
+.icone-cartao {
+    width: 53.62px;
+    height: 42px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}
+
+.icone-b {
+    width: 25.95px;
+    height: 42px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}
+
+.icone-nupay {
+    width: 84px;
+    height: 25.6px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    align-self: flex-start;
+}
+
+.icone-picpay {
+    width: 84px;
+    height: 27.1px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    align-self: flex-start;
+}
+
+.conteudo-caixa,
+.conteudo-caixa-menor {
+    text-align: left;
+    margin-left: 30px;
+}
+
+
+.texto-pix,
+.texto-cartao,
+.texto-b,
+.texto-nupay,
+.texto-picpay {
+    margin: 0;
+    color: #FFFFFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.texto2-pix,
+.texto2-cartao,
+.texto2-picpay {
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.texto2-b,
+.texto2-nupay {
+    margin: 0;
+    margin-right: 85px;
+    color: #767676;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.container3 {
+    width: 1167px;
+    height: 443px;
+    position: relative;
+    margin: -20px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.caixa-esquerda {
+    width: 519px;
+    height: 443px;
+}
+
+.imagem-esquerda {
+    width: 100%;
+    height: auto;
+}
+
+.caixa-direita {
+    width: 560px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo-direita {
+    margin: 0;
+    margin-left: 75px;
+    font-size: 36px;
+    line-height: 43.2px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+}
+
+.texto-caixa {
+    width: 100%;
+    margin-left: 75px;
+    max-width: 520px;
+    height: auto;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #FFFFFF;
+    font-family: 'Roboto Condensed',  sans-serif;
+}
+
+.footer {
+    width: 100%;
+    max-width: 1903px;
+    height: 280px;
+    background-color: #16171C;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 156px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.box {
+    flex: 1 1 200px;
+    max-width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    margin-left: -150px;
+}
+
+.iconf {
+    margin-top: -60px;
+    width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.textf,
+.text2f {
+    font-size: 16px;
+    line-height: 19.2px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.text2f {
+    color: #767676;
+}
+
+@media (max-width: 768px) {
+    .icone-meio{
+        display: none;
+    }
+    .header-logo {
+        position: relative;
+        left: 30px;
+        top: 0px;
+    }
+
+    .header-nav {
+        margin-left: 70px;
+    }
+
+    .header-nav ul li {
+        margin-left: 10px;
+    }
+
+    .header-nav ul li a {
+        font-size: 1.6vh;
+    }
+
+    .header-icon {
+        top: 0px;
+        right: 30px;
+    }
+
+    .container1 {
+        flex-direction: column;
+        margin: 30px auto;
+        padding: 0 20px;
+    }
+
+     .imagem1{
+        height: auto;
+    }
+    .input-box {
+        margin-left: 0px;
+    }
+
+    .registration-title {
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+
+    .input-name,
+    .input-email,
+    .input-phone {
+        font-size: 14px;
+    }
+
+    .btn-cadastrar {
+        max-width: 100%;
+    }
+
+    .container2 {
+        width: -50%;
+    }
+
+    .caixa-principal {
+        display: block;
+        margin-right: 0px;
+    }
+
+    .container2-title {
+        margin-top: 0px;
+    }
+
+    .caixa-grande {
+        width: 400px;
+        height: 90px;
+        margin-left: 200px;
+        margin-bottom: 10px;
+    }
+
+    .caixa-menor {
+        width: 373px;
+        margin-left: 200px;
+        height: 90px;
+        margin-bottom: 10px;
+    }
+
+    .icone-pix {
+        margin-top: 20px;
+    }
+
+    .icone-cartao {
+        margin-top: 20px;
+    }
+
+    .icone-b {
+        margin-top: 20px;
+    }
+
+    .icone-nupay {
+        margin-top: 30px;
+    }
+
+    .icone-picpay {
+        margin-top: 30px;
+    }
+
+    .texto-pix,
+    .texto-cartao,
+    .texto-b,
+    .texto-nupay,
+    .texto-picpay {
+        font-size: 18px;
+        margin-left: 100px;
+        margin-top: -65px;
+    }
+
+    .texto2-pix,
+    .texto2-cartao,
+    .texto2-picpay {
+        font-size: 14px;
+        margin-left: 100px;
+        margin-top: 0px;
+    }
+
+    .texto2-b,
+    .texto2-nupay {
+        margin-left: 100px;
+        margin-top: 0px;
+    }
+
+    .container3 {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        height: auto;
+        margin-top: 15px;
+    }
+    .imagem-esquerda {
+        width: 70%;
+        margin-left: 100px;
+    }
+    .caixa-esquerda,
+    .caixa-direita {
+        width: 100%;
+        height: auto;
+    }
+    .titulo-direita {
+        font-size: 28px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .texto-caixa {
+        width: 100%;
+        margin-left: 0px;
+        margin-left: 85px;
+        font-size: 19px;
+    }
+    .footer {
+        height: 180px;
+    }
+    .footer-content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0px;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 30px;
+    }
+    .box {
+        height: auto;
+        margin-left: 0;
+    }
+    .iconf {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .textf, .text2f{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .icone-meio{
+        display: none;
+    }
+    .header-container{
+        width: 104%;
+        height: 100px;
+    }
+    .header-logo {
+        position: relative;
+        left: 10px;
+        top: -20px;
+    }
+    .header-nav {
+        margin-left: -60px; 
+        margin-bottom: 30px; 
+    }
+    .header-nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        margin-top: 70px;
+        margin-left: 0px;
+    }
+    .header-nav ul li {
+        margin-left: 20px; 
+        margin-top: 0.5px; 
+    }
+    .header-nav ul li a {
+        text-decoration: none; 
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.2vh;
+        line-height: 1.80vh; 
+        display: block;
+        margin-top: 5px;
+    }
+    .header-icon {
+        top: -20px;
+    }
+    .container1 {
+        flex-direction: column;
+        margin: 30px auto;
+        padding: 0 20px;
+    }
+    .imagem-esquerda {
+        width: 60%;
+        margin-left: 75px;
+    }
+    .input-box {
+        max-width: 100%;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .registration-title {
+        font-size: 26px;
+    }
+
+    .checkbox-input {
+        width: 46px; 
+        height: 16px; 
+    }
+
+    .container2 {
+        width: 50%;
+        margin-left: -180px;
+    }
+    .texto2-nupay, .texto2-b{   
+        font-size: 11px;
+    }
+    
+    .texto-caixa {
+        margin-left: 0px;
+        font-size: 16px;
+    }
+
+    .input-name,
+    .input-email,
+    .input-phone {
+        font-size: 14px;
+    }
+
+    .btn-cadastrar {
+        max-width: 100%;
+    }
+    .caixa-direita {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 400px) {
+    .icone-meio{
+        display: none;
+    }
+    .header-container{
+        width: 105%;
+        height: 100px;
+        margin-left: -5px;
+    }
+    .page-container{
+        margin-left: 5px;
+    }
+    .header-icon{
+        right: 50px;
+    }
+    .container1{
+        margin-left: 0px;
+    }
+    .container2-title{
+        margin-top: 100px;
+        font-size: 26px;
+        margin-left: 50px;
+    }
+    .container2-subtitle{
+        margin-left: 50px;
+        margin-bottom: 0px;
+    }
+    .caixa-grande, .caixa-menor{
+        width: 350px;
+        margin-left: 195px;
+    }
+    .container3{
+        margin-left: 20px;
+    }
+    .footer{
+        width: 390px;;
+        margin-left: -5px;
+    }
+    
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+    width: 12px; 
+    background-color: #171717;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #171717;
+}
