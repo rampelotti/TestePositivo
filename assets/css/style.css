@@ -380,6 +380,7 @@ label {
     margin-top: 5px;
 }
 
+/* CONTAINER 3*/
 .container3 {
     width: 1167px;
     height: 443px;
@@ -433,7 +434,6 @@ label {
 
 .footer {
     width: 100%;
-    width: 1903px;
     height: 280px;
     background-color: #16171C;
     color: #ffffff;
@@ -443,6 +443,7 @@ label {
     margin-top: 156px;
 }
 
+/* FOOTER */
 .footer-content {
     display: flex;
     justify-content: space-around;
@@ -481,76 +482,91 @@ label {
 .text2f {
     color: #767676;
 }
+
+/* MEDIA QUERIES */
 @media (max-width: 2560px) {
-    .icone-meio{
+    .icone-meio {
         display: none;
     }
-    .page-container{
+
+    .page-container {
         width: 100%;
     }
-    .footer{
-      width: 100%;
+
+    .footer {
+        width: 100%;
     }
 }
+
 @media (max-width: 1024px) {
-    .page-container{
+    .page-container {
         width: 117%;
         height: 139.65%;
     }
 
-    .header-container{
+    .header-container {
         width: 117%;
     }
-    .container2{
+
+    .container2 {
         width: 117%;
         margin-left: 80px;
     }
-    .container3{
+
+    .container3 {
         width: 100%;
         margin-left: 100px;
     }
-    .footer{
-      width: 117%;
+
+    .footer {
+        width: 117%;
     }
-    .footer-content{
+
+    .footer-content {
         margin-left: 100px;
     }
 }
+
 @media (max-width: 768px) {
     .icone-meio {
         display: none;
     }
-    .header-container{
+
+    .header-container {
         width: 117%;
         height: 150px;
     }
-    .logo{
+
+    .logo {
         width: 150%;
     }
+
     .header-logo {
         position: relative;
-        left: 1.875rem; 
+        left: 1.875rem;
         top: 0;
     }
 
     .header-nav {
-        margin-left: 7rem; 
+        margin-left: 7rem;
     }
 
     .header-nav ul li {
-        margin-left: 0.9375rem; 
+        margin-left: 0.9375rem;
     }
 
     .header-nav ul li a {
         font-size: 1.9rem;
     }
-    .icon{
+
+    .icon {
         width: 100%;
     }
+
     .header-icon {
         width: 100px;
         top: 0;
-        right: 1.875rem; 
+        right: 1.875rem;
     }
 
     .container1 {
@@ -580,13 +596,13 @@ label {
         font-size: 1.5rem;
         width: 120%;
         height: 20%;
-        margin-bottom: 0.625rem; 
-        padding: 0.625rem; 
+        margin-bottom: 0.625rem;
+        padding: 0.625rem;
     }
 
     .checkbox-input {
-        width: 3.75rem; 
-        height: 1.25rem; 
+        width: 3.75rem;
+        height: 1.25rem;
         border-radius: 6px;
     }
 
@@ -596,7 +612,7 @@ label {
 
     .checkbox-input:checked::after {
         width: 1rem;
-        height: 0.8125rem; 
+        height: 0.8125rem;
     }
 
     .btn-cadastrar {
@@ -616,7 +632,7 @@ label {
     }
 
     .container2-title {
-        margin-top: 13rem; 
+        margin-top: 13rem;
         font-size: 2.8rem;
         margin-left: 150px;
     }
@@ -630,7 +646,7 @@ label {
     .caixa-grande,
     .caixa-menor {
         width: 900px;
-        height: 8rem; 
+        height: 8rem;
         margin-left: 0;
         margin-bottom: 0.625rem;
     }
@@ -641,10 +657,12 @@ label {
         height: 50px;
         margin-top: 2rem;
     }
-    .icone-b{
+
+    .icone-b {
         width: 55px;
         height: 60px;
     }
+
     .icone-nupay,
     .icone-picpay {
         margin-top: 2rem;
@@ -671,7 +689,7 @@ label {
     .texto2-b,
     .texto2-nupay {
         font-size: 1.5rem;
-        margin-left: 6.25rem; 
+        margin-left: 6.25rem;
         margin-top: 0;
     }
 
@@ -680,7 +698,7 @@ label {
         align-items: center;
         width: 90%;
         height: auto;
-        margin-top: 15rem; 
+        margin-top: 15rem;
     }
 
     .imagem-esquerda {
@@ -696,7 +714,7 @@ label {
 
     .titulo-direita {
         font-size: 2.1rem;
-        margin-top: 0.625rem; 
+        margin-top: 0.625rem;
         margin-left: 0;
         text-align: center;
     }
@@ -708,7 +726,7 @@ label {
     }
 
     .footer {
-        height: 11.25rem; 
+        height: 11.25rem;
     }
 
     .footer-content {
@@ -717,8 +735,8 @@ label {
         gap: 0;
         justify-content: space-between;
         width: 100%;
-        margin-left: 1.875rem; 
-        margin-top: 1.25rem; 
+        margin-left: 1.875rem;
+        margin-top: 1.25rem;
     }
 
     .box {
@@ -726,41 +744,47 @@ label {
         margin-left: 0;
     }
 }
+
 @media (max-width: 576px) {
     .icone-meio {
         display: none;
     }
-    .header-container{
+
+    .header-container {
         width: 197%;
         height: 200px;
     }
-    .logo{
+
+    .logo {
         width: 150%;
     }
+
     .header-logo {
         position: relative;
-        left: 1.875rem; 
+        left: 1.875rem;
         top: 0;
     }
 
     .header-nav {
-        margin-left: 7rem; 
+        margin-left: 7rem;
     }
 
     .header-nav ul li {
-        margin-left: 0.9375rem; 
+        margin-left: 0.9375rem;
     }
 
     .header-nav ul li a {
         font-size: 1.9rem;
     }
-    .icon{
+
+    .icon {
         width: 100%;
     }
+
     .header-icon {
         width: 100px;
         top: 0;
-        right: 1.875rem; 
+        right: 1.875rem;
     }
 
     .container1 {
@@ -790,13 +814,13 @@ label {
         font-size: 1.5rem;
         width: 120%;
         height: 20%;
-        margin-bottom: 0.625rem; 
-        padding: 0.625rem; 
+        margin-bottom: 0.625rem;
+        padding: 0.625rem;
     }
 
     .checkbox-input {
-        width: 7rem; 
-        height: 2rem; 
+        width: 7rem;
+        height: 2rem;
         border-radius: 6px;
     }
 
@@ -831,7 +855,7 @@ label {
     .caixa-grande,
     .caixa-menor {
         width: 800px;
-        height: 8rem; 
+        height: 8rem;
         margin-left: 0;
         margin-bottom: 0.625rem;
     }
@@ -842,10 +866,12 @@ label {
         height: 50px;
         margin-top: 2rem;
     }
-    .icone-b{
+
+    .icone-b {
         width: 55px;
         height: 60px;
     }
+
     .icone-nupay,
     .icone-picpay {
         margin-top: 2rem;
@@ -872,27 +898,32 @@ label {
     .texto2-b,
     .texto2-nupay {
         font-size: 1.5rem;
-        margin-left: 6.25rem; 
+        margin-left: 6.25rem;
         margin-top: 0;
     }
-    .container2-title, .container2-subtitle{
+
+    .container2-title,
+    .container2-subtitle {
         margin-left: 100px;
         text-align: left;
     }
-    .container2-title{
+
+    .container2-title {
         margin-top: 18rem;
         font-size: 2.8rem;
     }
-    .container2-subtitle{
+
+    .container2-subtitle {
         font-size: 1.9rem;
         line-height: 30px;
     }
+
     .container3 {
         flex-direction: column;
         align-items: center;
         width: 90%;
         height: auto;
-        margin-top: 15rem; 
+        margin-top: 15rem;
     }
 
     .imagem-esquerda {
@@ -908,7 +939,7 @@ label {
 
     .titulo-direita {
         font-size: 2.1rem;
-        margin-top: 0.625rem; 
+        margin-top: 0.625rem;
         margin-left: -40px;
         text-align: left;
     }
@@ -921,7 +952,7 @@ label {
 
     .footer {
         width: 197%;
-        height: 11.25rem; 
+        height: 11.25rem;
     }
 
     .footer-content {
@@ -930,20 +961,23 @@ label {
         gap: 0;
         justify-content: space-between;
         width: 100%;
-        margin-left: 1.875rem; 
-        margin-top: 1.25rem; 
+        margin-left: 1.875rem;
+        margin-top: 1.25rem;
     }
 
     .box {
         height: auto;
         margin-left: 50px;
     }
-    .iconf{
+
+    .iconf {
         width: 100px;
         height: auto;
         margin-bottom: 0px;
     }
-    .textf, .text2f{
+
+    .textf,
+    .text2f {
         display: none;
     }
 }
